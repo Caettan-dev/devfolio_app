@@ -1,4 +1,3 @@
-cat > lib/main.dart <<'EOF'
 import 'package:flutter/material.dart';
 
 import 'widgets/tela_dashboard.dart';
@@ -16,7 +15,6 @@ class DevFolioApp extends StatelessWidget {
     return MaterialApp(
       title: 'DevFolio App',
       debugShowCheckedModeBanner: false,
-      // Tema global (ThemeData) usado em todas as telas
       theme: ThemeData(
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(
@@ -82,4 +80,3 @@ class _PaginaInicialState extends State<PaginaInicial> {
     );
   }
 }
-EOF
